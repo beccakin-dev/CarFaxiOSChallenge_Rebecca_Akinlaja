@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarFaxHomeProject/Model/Vehicle.swift"
+            timestampString = "590454779.798468"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "Vehicle"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarFaxHomeProject/Model/Vehicle.swift"
+            timestampString = "590454779.798542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "init(vehiclesDict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarFaxHomeProject/ Controller/MainViewController.swift"
+            timestampString = "590473249.58846"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.tableView.getter : weak Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472771.455616"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.tableView.setter : weak Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472771.45818"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CarFaxHomeProject.MainViewController"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472771.461311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CarFaxHomeProject.MainViewController&gt;"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472771.464336"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarFaxHomeProject/ Controller/MainViewController.swift"
+            timestampString = "590473249.589142"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.tableView.getter : weak Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472780.6407419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.tableView.setter : weak Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472780.645228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CarFaxHomeProject.MainViewController"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472780.649223"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarFaxHomeProject.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CarFaxHomeProject.MainViewController&gt;"
+                  moduleName = "CarFaxHomeProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beccaakin/Desktop/CarFaxHomeProject/CarFaxHomeProject/%20Controller/MainViewController.swift"
+                  timestampString = "590472780.653093"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

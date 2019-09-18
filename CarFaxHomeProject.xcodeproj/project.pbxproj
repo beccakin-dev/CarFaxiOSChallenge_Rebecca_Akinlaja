@@ -3,25 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32D4432FFCC2C56FBA3E19CC /* Pods_CarFaxHomeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF41797A2C90FBB53B8E9913 /* Pods_CarFaxHomeProject.framework */; };
 		47390DE5232B279B00C2406F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390DE4232B279B00C2406F /* AppDelegate.swift */; };
-		47390DE7232B279B00C2406F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390DE6232B279B00C2406F /* ViewController.swift */; };
+		47390DE7232B279B00C2406F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390DE6232B279B00C2406F /* MainViewController.swift */; };
 		47390DEA232B279B00C2406F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47390DE8232B279B00C2406F /* Main.storyboard */; };
 		47390DEC232B279D00C2406F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47390DEB232B279D00C2406F /* Assets.xcassets */; };
 		47390DEF232B279D00C2406F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47390DED232B279D00C2406F /* LaunchScreen.storyboard */; };
+		47390E02232B460E00C2406F /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390E01232B460E00C2406F /* Vehicle.swift */; };
+		47390E04232BDFFB00C2406F /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390E03232BDFFB00C2406F /* VehicleTableViewCell.swift */; };
+		47390E06232F280F00C2406F /* PriceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390E05232F280F00C2406F /* PriceValidator.swift */; };
+		47390E08232F2B3200C2406F /* AddSuffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390E07232F2B3200C2406F /* AddSuffix.swift */; };
+		47390E0A23306F6000C2406F /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390E0923306F6000C2406F /* DoubleExtension.swift */; };
+		47390E0C23306FB600C2406F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390E0B23306FB600C2406F /* StringExtension.swift */; };
+		47390E0E2330708000C2406F /* ValidatePhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47390E0D2330708000C2406F /* ValidatePhoneNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47390DE1232B279B00C2406F /* CarFaxHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarFaxHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47390DE4232B279B00C2406F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47390DE6232B279B00C2406F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47390DE6232B279B00C2406F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		47390DE9232B279B00C2406F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47390DEB232B279D00C2406F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47390DEE232B279D00C2406F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47390DF0232B279D00C2406F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47390E01232B460E00C2406F /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		47390E03232BDFFB00C2406F /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		47390E05232F280F00C2406F /* PriceValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceValidator.swift; sourceTree = "<group>"; };
+		47390E07232F2B3200C2406F /* AddSuffix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSuffix.swift; sourceTree = "<group>"; };
+		47390E0923306F6000C2406F /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		47390E0B23306FB600C2406F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		47390E0D2330708000C2406F /* ValidatePhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatePhoneNumber.swift; sourceTree = "<group>"; };
+		7F68BCB2F0D7B49E845D7EAE /* Pods-CarFaxHomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarFaxHomeProject.debug.xcconfig"; path = "Target Support Files/Pods-CarFaxHomeProject/Pods-CarFaxHomeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A973AA194206BBAE44DF85 /* Pods-CarFaxHomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarFaxHomeProject.release.xcconfig"; path = "Target Support Files/Pods-CarFaxHomeProject/Pods-CarFaxHomeProject.release.xcconfig"; sourceTree = "<group>"; };
+		FF41797A2C90FBB53B8E9913 /* Pods_CarFaxHomeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarFaxHomeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D4432FFCC2C56FBA3E19CC /* Pods_CarFaxHomeProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B55BF98F18A23219301268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF41797A2C90FBB53B8E9913 /* Pods_CarFaxHomeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47390DD8232B279B00C2406F = {
 			isa = PBXGroup;
 			children = (
 				47390DE3232B279B00C2406F /* CarFaxHomeProject */,
 				47390DE2232B279B00C2406F /* Products */,
+				B8721165D5D1E44BB5680FA2 /* Pods */,
+				00B55BF98F18A23219301268 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,102 @@
 		47390DE3232B279B00C2406F /* CarFaxHomeProject */ = {
 			isa = PBXGroup;
 			children = (
-				47390DE4232B279B00C2406F /* AppDelegate.swift */,
-				47390DE6232B279B00C2406F /* ViewController.swift */,
-				47390DE8232B279B00C2406F /* Main.storyboard */,
-				47390DEB232B279D00C2406F /* Assets.xcassets */,
-				47390DED232B279D00C2406F /* LaunchScreen.storyboard */,
-				47390DF0232B279D00C2406F /* Info.plist */,
+				47390DFF232B40EF00C2406F /* Extensions */,
+				47390DFE232B40E700C2406F /* Util */,
+				47390DFD232B293400C2406F /* Supporting Files */,
+				47390DFC232B292100C2406F /* Resources */,
+				47390DFB232B291800C2406F /* View */,
+				47390DFA232B28FF00C2406F /* Model */,
+				47390DF9232B287000C2406F /*  Controller */,
+				47390DF7232B282700C2406F /* Storyboards */,
+				47390DF6232B27D700C2406F /* Application Delegate */,
 			);
 			path = CarFaxHomeProject;
+			sourceTree = "<group>";
+		};
+		47390DF6232B27D700C2406F /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				47390DE4232B279B00C2406F /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		47390DF7232B282700C2406F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				47390DED232B279D00C2406F /* LaunchScreen.storyboard */,
+				47390DE8232B279B00C2406F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		47390DF9232B287000C2406F /*  Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47390DE6232B279B00C2406F /* MainViewController.swift */,
+			);
+			path = " Controller";
+			sourceTree = "<group>";
+		};
+		47390DFA232B28FF00C2406F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47390E01232B460E00C2406F /* Vehicle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47390DFB232B291800C2406F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47390E03232BDFFB00C2406F /* VehicleTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47390DFC232B292100C2406F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47390DEB232B279D00C2406F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47390DFD232B293400C2406F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47390DF0232B279D00C2406F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47390DFE232B40E700C2406F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				47390E05232F280F00C2406F /* PriceValidator.swift */,
+				47390E07232F2B3200C2406F /* AddSuffix.swift */,
+				47390E0D2330708000C2406F /* ValidatePhoneNumber.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		47390DFF232B40EF00C2406F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				47390E0923306F6000C2406F /* DoubleExtension.swift */,
+				47390E0B23306FB600C2406F /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B8721165D5D1E44BB5680FA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F68BCB2F0D7B49E845D7EAE /* Pods-CarFaxHomeProject.debug.xcconfig */,
+				E9A973AA194206BBAE44DF85 /* Pods-CarFaxHomeProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47390DF3232B279D00C2406F /* Build configuration list for PBXNativeTarget "CarFaxHomeProject" */;
 			buildPhases = (
+				37BB4DEFCAB71FE9CA567C55 /* [CP] Check Pods Manifest.lock */,
 				47390DDD232B279B00C2406F /* Sources */,
 				47390DDE232B279B00C2406F /* Frameworks */,
 				47390DDF232B279B00C2406F /* Resources */,
+				6F121B6CFEF40089EB5CB395 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +249,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37BB4DEFCAB71FE9CA567C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarFaxHomeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F121B6CFEF40089EB5CB395 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFaxHomeProject/Pods-CarFaxHomeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarFaxHomeProject/Pods-CarFaxHomeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarFaxHomeProject/Pods-CarFaxHomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47390DDD232B279B00C2406F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47390DE7232B279B00C2406F /* ViewController.swift in Sources */,
+				47390E08232F2B3200C2406F /* AddSuffix.swift in Sources */,
+				47390E04232BDFFB00C2406F /* VehicleTableViewCell.swift in Sources */,
+				47390E06232F280F00C2406F /* PriceValidator.swift in Sources */,
+				47390E0A23306F6000C2406F /* DoubleExtension.swift in Sources */,
+				47390E0C23306FB600C2406F /* StringExtension.swift in Sources */,
+				47390E02232B460E00C2406F /* Vehicle.swift in Sources */,
+				47390DE7232B279B00C2406F /* MainViewController.swift in Sources */,
 				47390DE5232B279B00C2406F /* AppDelegate.swift in Sources */,
+				47390E0E2330708000C2406F /* ValidatePhoneNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +388,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -274,17 +443,19 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		47390DF4232B279D00C2406F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F68BCB2F0D7B49E845D7EAE /* Pods-CarFaxHomeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG4R6799YN;
-				INFOPLIST_FILE = CarFaxHomeProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CarFaxHomeProject/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +463,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.beccakin.CarFaxHomeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		47390DF5232B279D00C2406F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A973AA194206BBAE44DF85 /* Pods-CarFaxHomeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG4R6799YN;
-				INFOPLIST_FILE = CarFaxHomeProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CarFaxHomeProject/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.beccakin.CarFaxHomeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

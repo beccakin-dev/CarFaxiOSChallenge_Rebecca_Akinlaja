@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="CarFaxHomeProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QN5-d4-bX6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="vehicleCell" rowHeight="366" id="aoI-C4-60Z" customClass="VehicleTableViewCell" customModule="CarFaxHomeProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="366"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aoI-C4-60Z" id="Wji-wN-Xxd">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="365.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H0k-ma-Ar4">
+                                                    <rect key="frame" x="0.0" y="8" width="375" height="263"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQj-jT-nO8">
+                                                    <rect key="frame" x="8" y="304" width="359" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="357-qy-6gS">
+                                                    <rect key="frame" x="8" y="279" width="359" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uW4-yf-CkS">
+                                                    <rect key="frame" x="8" y="329" width="359" height="27"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <state key="normal" title="Dealer's phone number"/>
+                                                    <connections>
+                                                        <action selector="callDealer:" destination="aoI-C4-60Z" eventType="touchUpInside" id="gtN-q5-n1y"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="357-qy-6gS" secondAttribute="trailing" constant="8" id="G3j-1Q-SUD"/>
+                                                <constraint firstItem="SQj-jT-nO8" firstAttribute="top" secondItem="357-qy-6gS" secondAttribute="bottom" constant="8" id="Hgo-P8-IIU"/>
+                                                <constraint firstItem="H0k-ma-Ar4" firstAttribute="top" secondItem="Wji-wN-Xxd" secondAttribute="top" constant="8" id="Itp-K6-hTT"/>
+                                                <constraint firstAttribute="trailing" secondItem="uW4-yf-CkS" secondAttribute="trailing" constant="8" id="LZJ-Cm-FOe"/>
+                                                <constraint firstAttribute="bottom" secondItem="uW4-yf-CkS" secondAttribute="bottom" constant="9.5" id="P9W-4h-x52"/>
+                                                <constraint firstAttribute="trailing" secondItem="H0k-ma-Ar4" secondAttribute="trailing" id="TAt-WK-g6n"/>
+                                                <constraint firstItem="357-qy-6gS" firstAttribute="top" secondItem="H0k-ma-Ar4" secondAttribute="bottom" constant="8" id="Ulq-NE-50b"/>
+                                                <constraint firstItem="H0k-ma-Ar4" firstAttribute="leading" secondItem="Wji-wN-Xxd" secondAttribute="leading" id="Wth-Iv-Oat"/>
+                                                <constraint firstAttribute="trailing" secondItem="SQj-jT-nO8" secondAttribute="trailing" constant="8" id="chE-at-DoG"/>
+                                                <constraint firstItem="uW4-yf-CkS" firstAttribute="leading" secondItem="Wji-wN-Xxd" secondAttribute="leading" constant="8" id="el3-tV-3Jw"/>
+                                                <constraint firstItem="357-qy-6gS" firstAttribute="leading" secondItem="Wji-wN-Xxd" secondAttribute="leading" constant="8" id="ilk-UT-VDj"/>
+                                                <constraint firstItem="SQj-jT-nO8" firstAttribute="leading" secondItem="Wji-wN-Xxd" secondAttribute="leading" constant="8" id="nbO-7J-dZ2"/>
+                                                <constraint firstItem="uW4-yf-CkS" firstAttribute="top" secondItem="SQj-jT-nO8" secondAttribute="bottom" constant="8" id="osx-I1-UlC"/>
+                                                <constraint firstItem="SQj-jT-nO8" firstAttribute="leading" secondItem="Wji-wN-Xxd" secondAttribute="leading" constant="8" id="weO-93-TTM"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dealerPhoneNumber" destination="uW4-yf-CkS" id="tw2-1r-U3Y"/>
+                                            <outlet property="vehiclePhoto" destination="H0k-ma-Ar4" id="dvT-9Z-YJ9"/>
+                                            <outlet property="vehicle_price_mileage_location" destination="SQj-jT-nO8" id="JKa-2C-3nV"/>
+                                            <outlet property="vehicle_year_make_model_trim" destination="357-qy-6gS" id="47L-uO-gUc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="zfh-0t-8X8"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="CIi-ha-yjQ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QN5-d4-bX6" secondAttribute="bottom" id="CKA-ZI-4ni"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QN5-d4-bX6" secondAttribute="trailing" id="ZQz-dz-G2h"/>
+                            <constraint firstItem="QN5-d4-bX6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sP1-Xq-iBz"/>
+                            <constraint firstItem="QN5-d4-bX6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w7M-gT-KOK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="QN5-d4-bX6" id="LhK-nK-f3b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.5999999999999996" y="-7.6461769115442282"/>
+        </scene>
+    </scenes>
+</document>

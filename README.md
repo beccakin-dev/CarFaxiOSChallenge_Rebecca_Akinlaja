@@ -27,7 +27,6 @@ The Applicaion displays a list of vehicles with the following information:
 - Cocoapods
 
 # Limitations
-- Couldn't get the tableview to load faster.
 - Didn't have enough time to add more features.
 
 # Author

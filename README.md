@@ -3,7 +3,7 @@ Rebecca Akinlaja
 
 # Purpose
 
-This iOS application is developed as part of the interview process with Carfax.
+This iOS application was developed as part of the interview process with CarFax.
 
 # About
 

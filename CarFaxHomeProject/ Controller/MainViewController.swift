@@ -27,12 +27,10 @@ class MainViewController: UIViewController, UITabBarDelegate, UITableViewDataSou
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
          self.getVehicleJson()
-        
+    
         
     }
    
-   
-    
 
     func getVehicleJson () {
        guard let url = URL(string: urlString) else {return}
@@ -73,14 +71,12 @@ class MainViewController: UIViewController, UITabBarDelegate, UITableViewDataSou
     
     //MARK: - Table View
     
-    
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return vehicleArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "vehicleCell", for: indexPath) as? VehicleTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "vehicleCell") as? VehicleTableViewCell else {
             return UITableViewCell()
         }
         
@@ -93,7 +89,9 @@ class MainViewController: UIViewController, UITabBarDelegate, UITableViewDataSou
         return 1
     }
     
-    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Rebecca Akinlaja - CARFAX - Home Project"
+    }
     
     
 }

@@ -9,12 +9,12 @@
 import Foundation
 
 func ValidatePhoneNumber(phoneNumber stringPhoneNumber: String) -> String? {
-    // Remove any character that is not a number
+    // Remove any invalid character
     let numVal = stringPhoneNumber.components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
     let length = numVal.count
     let withLeadingOne = numVal.hasPrefix("1")
     
-    // Check for supported phone number length
+    // Check for valid phone number length
     guard length == 7 || length == 10 || (length == 11 && withLeadingOne) else {
         return nil
     }
@@ -40,14 +40,14 @@ func ValidatePhoneNumber(phoneNumber stringPhoneNumber: String) -> String? {
         stringIndex += areaCodeLength
     }
     
-    // Prefix, 3 characters
+    // Prefix
     let prefixLength = 3
     guard let prefix = numVal.substring(start: stringIndex, offsetBy: prefixLength) else {
         return nil
     }
     stringIndex += prefixLength
     
-    // Suffix, 4 characters
+    // Suffix
     let suffixLength = 4
     guard let suffix = numVal.substring(start: stringIndex, offsetBy: suffixLength) else {
         return nil

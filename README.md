@@ -7,7 +7,7 @@ This iOS application was developed as part of the interview process with CarFax.
 
 # About
 
-The Applicaion displays a list of vehicles with the following information:
+The Application displays a list of vehicles with the following information:
 
 - Vehicle photo
 - Year, make, model, trim

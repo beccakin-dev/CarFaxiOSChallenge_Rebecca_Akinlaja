@@ -1,12 +1,7 @@
-# CarFaxiOSChallenge_Rebecca_Akinlaja
+# CarFaxiOS__Rebecca_Akinlaja
 Rebecca Akinlaja
 
-# Purpose
-
-This iOS application was developed as part of the interview process with CarFax.
-
 # About
-
 The Application displays a list of vehicles with the following information:
 
 - Vehicle photo
@@ -25,9 +20,6 @@ The Application displays a list of vehicles with the following information:
 - OS: Mac Mojave
 - Storyboard and Autolayouts
 - Cocoapods
-
-# Limitations
-- Didn't have enough time to add more features.
 
 # Author
 - Rebecca Akinlaja
